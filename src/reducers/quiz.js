@@ -2,8 +2,11 @@ import { createSlice } from '@reduxjs/toolkit'
 
 // Change these to your own questions!
 const questions = [
-  { id: 1, questionText: 'Who set the Olympic record for the 100m dash in 2012?', options: ['Usain Bolt', 'Justin Gatlin', 'Tyson Gay', 'Asafa Powell'], correctAnswerIndex: 0 },
-  { id: 2, questionText: 'When was Michael Phelps last named male World Swimmer of the Year?', options: ['2012', '2014', '2016', '2018'], correctAnswerIndex: 2 }
+  { id: 1, questionText: 'What superpower does Eleven have?', options: ['She can fly', 'She is really good at board games', 'She can control things with her mind', 'She is a really good storyteller'], correctAnswerIndex: 2 },
+  { id: 2, questionText: 'What game does the friends play alot?', options: ['Grand theft auto', 'Dungeons and dragons', 'Supermario cart', 'Monopoly'], correctAnswerIndex: 1 },
+  { id: 3, questionText: 'What is the name of Will\'s older brother?', options: ['Jonathan', 'Steve', 'Dustin', 'Justin'], correctAnswerIndex: 0 },
+  { id: 4, questionText: 'What is the name of the restaurant that Eleven steals fries from in chapter 1 of “Stranger Things”?', options: ['Joe’s Drive In', 'Benny’s Burgers', 'Waffle House', 'Joe’s Burgers'], correctAnswerIndex: 1 },
+  { id: 5, questionText: 'At the start of the second season, the boys go dressed up as characters from what popular film for Halloween?', options: ['Indiana Jones', 'Friday the 13th', 'Ghostbusters', 'Karate kid'], correctAnswerIndex: 2 }
 ]
 
 const initialState = {

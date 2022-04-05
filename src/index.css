@@ -11,3 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.logo {
+  filter: drop-shadow( 3px 3px 5px rgba(0, 0, 0, .5));
+}
